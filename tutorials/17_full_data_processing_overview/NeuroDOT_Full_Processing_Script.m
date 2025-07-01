@@ -7,7 +7,7 @@
 
 %% Load Measurement data
 dataset='CCW2'; % CCW1, CCW2, CW1, IN1, OUT1, GV1, HW1, HW2, HW3_Noisy,  RW1
-load(['NeuroDOT_Data_Sample_',dataset,'.mat']); % data, info, flags
+load(fullfile('../../Data',['NeuroDOT_Data_Sample_',dataset,'.mat'])); % data, info, flags
 
 % Set parameters for A and block length for quick processing examples
 switch dataset
