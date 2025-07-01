@@ -16,7 +16,7 @@
 
 %% 1. Select File to Load
 % Your raw data filename including the extension (.mat, .snirf, .nirs)
-filename = 'NeuroDOT_Data_Sample_CCW1.mat'; 
+filename = fullfile('../../Data','NeuroDOT_Data_Sample_CCW1.mat');
 [pn, fn, ext] = fileparts(filename);
 
 
