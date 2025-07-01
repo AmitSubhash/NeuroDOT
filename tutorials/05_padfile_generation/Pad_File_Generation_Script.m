@@ -15,7 +15,7 @@ cd(outputdir)
 %% Load data and get optode locations
 
 % load data that contains optode locations and wavelengths
-Data = load('NeuroDOT/Data/NeuroDOT_Data_Sample_CCW1');
+Data = load(fullfile('../../Data','NeuroDOT_Data_Sample_CCW1.mat'));
 
 % create grid structure and place optode locations inside
     % grid structure should contain the following fields at a minimum
@@ -88,7 +88,7 @@ close all; clear all
 % info.pairs to match the measurement list seen in the data
 
 %% Load data file
-Data = load('NeuroDOT/Data/NeuroDOT_Data_Sample_GV1');
+Data = load(fullfile('../../Data','NeuroDOT_Data_Sample_GV1.mat'));
 
 
 %% Generate pad file
